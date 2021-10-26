@@ -20,7 +20,7 @@ public:
   typedef std::false_type fixed_size;
   static const char* descriptor;
 
-  ::aidl::android::hardware::security::keymint::HardwareAuthenticatorType authenticatorType;
+  ::aidl::android::hardware::security::keymint::HardwareAuthenticatorType authenticatorType = ::aidl::android::hardware::security::keymint::HardwareAuthenticatorType(0);
   int64_t authenticatorId = 0L;
 
   binder_status_t readFromParcel(const AParcel* parcel);

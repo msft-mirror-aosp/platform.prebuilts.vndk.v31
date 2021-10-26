@@ -24,7 +24,7 @@ public:
   typedef std::false_type fixed_size;
   static const char* descriptor;
 
-  ::aidl::android::hardware::automotive::occupant_awareness::Role role;
+  ::aidl::android::hardware::automotive::occupant_awareness::Role role = ::aidl::android::hardware::automotive::occupant_awareness::Role(0);
   std::vector<::aidl::android::hardware::automotive::occupant_awareness::PresenceDetection> presenceData;
   std::vector<::aidl::android::hardware::automotive::occupant_awareness::GazeDetection> gazeData;
   std::vector<::aidl::android::hardware::automotive::occupant_awareness::DriverMonitoringDetection> attentionData;
