@@ -21,7 +21,7 @@ public:
   typedef std::false_type fixed_size;
   static const char* descriptor;
 
-  ::aidl::android::hardware::security::keymint::SecurityLevel securityLevel;
+  ::aidl::android::hardware::security::keymint::SecurityLevel securityLevel = ::aidl::android::hardware::security::keymint::SecurityLevel(0);
   ::aidl::android::hardware::security::keymint::KeyParameter keyParameter;
 
   binder_status_t readFromParcel(const AParcel* parcel);
