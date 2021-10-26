@@ -20,7 +20,7 @@ public:
   typedef std::false_type fixed_size;
   static const char* descriptor;
 
-  ::aidl::android::hardware::vibrator::Braking braking;
+  ::aidl::android::hardware::vibrator::Braking braking = ::aidl::android::hardware::vibrator::Braking(0);
   int32_t duration = 0;
 
   binder_status_t readFromParcel(const AParcel* parcel);

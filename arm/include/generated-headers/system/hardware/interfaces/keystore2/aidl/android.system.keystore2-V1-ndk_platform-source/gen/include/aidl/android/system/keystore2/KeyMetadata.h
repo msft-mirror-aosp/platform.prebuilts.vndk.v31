@@ -23,7 +23,7 @@ public:
   static const char* descriptor;
 
   ::aidl::android::system::keystore2::KeyDescriptor key;
-  ::aidl::android::hardware::security::keymint::SecurityLevel keySecurityLevel;
+  ::aidl::android::hardware::security::keymint::SecurityLevel keySecurityLevel = ::aidl::android::hardware::security::keymint::SecurityLevel(0);
   std::vector<::aidl::android::system::keystore2::Authorization> authorizations;
   std::optional<std::vector<uint8_t>> certificate;
   std::optional<std::vector<uint8_t>> certificateChain;
