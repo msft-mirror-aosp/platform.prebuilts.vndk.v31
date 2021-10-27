@@ -20,7 +20,7 @@ public:
   typedef std::false_type fixed_size;
   static const char* descriptor;
 
-  ::aidl::android::system::keystore2::Domain domain;
+  ::aidl::android::system::keystore2::Domain domain = ::aidl::android::system::keystore2::Domain(0);
   int64_t nspace = 0L;
   std::optional<std::string> alias;
   std::optional<std::vector<uint8_t>> blob;
