@@ -22,7 +22,7 @@ public:
 
   int32_t id = 0;
   int32_t ordinal = 0;
-  ::aidl::android::hardware::light::LightType type;
+  ::aidl::android::hardware::light::LightType type = ::aidl::android::hardware::light::LightType(0);
 
   binder_status_t readFromParcel(const AParcel* parcel);
   binder_status_t writeToParcel(AParcel* parcel) const;
