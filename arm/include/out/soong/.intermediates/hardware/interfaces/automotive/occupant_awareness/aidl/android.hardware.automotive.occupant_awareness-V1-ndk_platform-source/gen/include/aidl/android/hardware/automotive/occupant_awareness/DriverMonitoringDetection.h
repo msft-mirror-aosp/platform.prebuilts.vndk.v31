@@ -21,7 +21,7 @@ public:
   typedef std::false_type fixed_size;
   static const char* descriptor;
 
-  ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel confidenceScore;
+  ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel confidenceScore = ::aidl::android::hardware::automotive::occupant_awareness::ConfidenceLevel(0);
   bool isLookingOnRoad = false;
   int64_t gazeDurationMillis = 0L;
 
