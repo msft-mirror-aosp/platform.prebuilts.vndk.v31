@@ -1811,7 +1811,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libcap.so-notice",
+    licenses: ["vndk-v31-libcap.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -1932,7 +1932,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libcn-cbor.so-notice",
+    licenses: ["vndk-v31-libcn-cbor.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2008,7 +2008,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libcrypto.so-notice",
+    licenses: ["vndk-v31-libcrypto.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2058,7 +2058,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libcurl.so-notice",
+    licenses: ["vndk-v31-libcurl.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2136,7 +2136,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libevent.so-notice",
+    licenses: ["vndk-v31-libevent.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2161,7 +2161,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libexif.so-notice",
+    licenses: ["vndk-v31-libexif.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2187,7 +2187,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libexpat.so-notice",
+    licenses: ["vndk-v31-libexpat.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2400,7 +2400,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libhardware_legacy.so-notice",
+    licenses: ["vndk-v31-libhardware_legacy.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2492,7 +2492,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libjpeg.so-notice",
+    licenses: ["vndk-v31-libjpeg.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2518,7 +2518,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libldacBT_abr.so-notice",
+    licenses: ["vndk-v31-libldacBT_abr.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2544,7 +2544,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libldacBT_enc.so-notice",
+    licenses: ["vndk-v31-libldacBT_enc.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2570,7 +2570,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-liblz4.so-notice",
+    licenses: ["vndk-v31-liblz4.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2619,7 +2619,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libmedia_omx.so-notice",
+    licenses: ["vndk-v31-libmedia_omx.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2767,7 +2767,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libminijail.so-notice",
+    licenses: ["vndk-v31-libminijail.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2816,7 +2816,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libnetutils.so-notice",
+    licenses: ["vndk-v31-libnetutils.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2842,7 +2842,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libnl.so-notice",
+    licenses: ["vndk-v31-libnl.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2868,7 +2868,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libpcre2.so-notice",
+    licenses: ["vndk-v31-libpcre2.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2894,7 +2894,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libpiex.so-notice",
+    licenses: ["vndk-v31-libpiex.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2920,7 +2920,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libpng.so-notice",
+    licenses: ["vndk-v31-libpng.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -2945,7 +2945,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libpower.so-notice",
+    licenses: ["vndk-v31-libpower.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3022,7 +3022,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libspeexresampler.so-notice",
+    licenses: ["vndk-v31-libspeexresampler.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3047,7 +3047,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libsqlite.so-notice",
+    licenses: ["vndk-v31-libsqlite.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3073,7 +3073,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libssl.so-notice",
+    licenses: ["vndk-v31-libssl.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3244,7 +3244,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libstagefright_foundation.so-notice",
+    licenses: ["vndk-v31-libstagefright_foundation.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3287,7 +3287,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libstagefright_omx.so-notice",
+    licenses: ["vndk-v31-libstagefright_omx.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3334,7 +3334,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libstagefright_omx_utils.so-notice",
+    licenses: ["vndk-v31-libstagefright_omx_utils.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3508,7 +3508,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libtinyalsa.so-notice",
+    licenses: ["vndk-v31-libtinyalsa.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3534,7 +3534,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libtinyxml2.so-notice",
+    licenses: ["vndk-v31-libtinyxml2.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3559,7 +3559,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libui.so-notice",
+    licenses: ["vndk-v31-libui.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3708,7 +3708,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libxml2.so-notice",
+    licenses: ["vndk-v31-libxml2.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -3734,7 +3734,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v31-libyuv.so-notice",
+    licenses: ["vndk-v31-libyuv.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -4680,7 +4680,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libbase.so-notice",
+    licenses: ["vndk-v31-libbase.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -4734,7 +4734,7 @@ vndk_prebuilt_shared {
         support_system_process: true,
         private: true,
     },
-    notice: ":vndk-v31-libblas.so-notice",
+    licenses: ["vndk-v31-libblas.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -4761,7 +4761,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libc++.so-notice",
+    licenses: ["vndk-v31-libc++.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -4791,7 +4791,7 @@ vndk_prebuilt_shared {
         support_system_process: true,
         private: true,
     },
-    notice: ":vndk-v31-libcompiler_rt.so-notice",
+    licenses: ["vndk-v31-libcompiler_rt.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv8-a/shared/vndk-sp/libcompiler_rt.so"],
@@ -4812,7 +4812,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libcutils.so-notice",
+    licenses: ["vndk-v31-libcutils.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -4952,7 +4952,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libhardware.so-notice",
+    licenses: ["vndk-v31-libhardware.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -4987,7 +4987,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libhidlbase.so-notice",
+    licenses: ["vndk-v31-libhidlbase.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5138,7 +5138,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libjsoncpp.so-notice",
+    licenses: ["vndk-v31-libjsoncpp.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5243,7 +5243,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libutils.so-notice",
+    licenses: ["vndk-v31-libutils.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5280,7 +5280,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libutilscallstack.so-notice",
+    licenses: ["vndk-v31-libutilscallstack.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5317,7 +5317,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v31-libz.so-notice",
+    licenses: ["vndk-v31-libz.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5466,7 +5466,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libbinder_ndk.so-notice",
+    licenses: ["vndk-v31-libbinder_ndk.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5493,7 +5493,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libc.so-notice",
+    licenses: ["vndk-v31-libc.so-license"],
     arch: {
         arm: {
             export_system_include_dirs: [
@@ -5585,7 +5585,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libdl.so-notice",
+    licenses: ["vndk-v31-libdl.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv8-a/shared/llndk-stub/libdl.so"],
@@ -5602,7 +5602,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libft2.so-notice",
+    licenses: ["vndk-v31-libft2.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5625,7 +5625,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-liblog.so-notice",
+    licenses: ["vndk-v31-liblog.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5648,7 +5648,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libm.so-notice",
+    licenses: ["vndk-v31-libm.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv8-a/shared/llndk-stub/libm.so"],
@@ -5665,7 +5665,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libmediandk.so-notice",
+    licenses: ["vndk-v31-libmediandk.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5690,7 +5690,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libnativewindow.so-notice",
+    licenses: ["vndk-v31-libnativewindow.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5713,7 +5713,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libneuralnetworks.so-notice",
+    licenses: ["vndk-v31-libneuralnetworks.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5736,7 +5736,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libselinux.so-notice",
+    licenses: ["vndk-v31-libselinux.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
@@ -5759,7 +5759,7 @@ vndk_prebuilt_shared {
     target_arch: "arm64",
     vendor_available: true,
     product_available: true,
-    notice: ":vndk-v31-libsync.so-notice",
+    licenses: ["vndk-v31-libsync.so-license"],
     arch: {
         arm: {
             export_include_dirs: [
